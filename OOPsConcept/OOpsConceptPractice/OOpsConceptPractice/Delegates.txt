@@ -1,0 +1,10 @@
+﻿What is a delegate in C#?
+Why do we need delegates in C#?
+What are the benefits of delegates in C# and .NET?
+What are different types of delegates in C#?
+How delefates are related to events in C#?
+What are singlecast and multicast delegates in C#?
+What is an anonmous delegate in C#?
+C# delegate code examples
+
+Delegates is a types which holds a methods in an object.
