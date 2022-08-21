@@ -9,3 +9,4 @@ FileExistsOrNot file = new FileExistsOrNot();
 
 // Copy the from one to another file by using Copy Method
 // file.CopyData();
+file.DirectoryInfo();
