@@ -85,7 +85,7 @@ namespace CsharpFile_IO
             Console.WriteLine("Get  files from Directory  by using (GetFiles) Method ");
             foreach (var item in dirs)
             {
-                Console.WriteLine(item.GetFiles());
+                Console.WriteLine(item.GetFiles().Length);
             }
            // Console.WriteLine("Get complete path of  Directory Name by (FullName) Method ");
             //foreach (var item in dirs)
@@ -100,6 +100,19 @@ namespace CsharpFile_IO
             //Console.WriteLine("Getting the subdirectory ny using GetDirectories method");
             //Console.ReadLine();
 
+        }
+        public void FileStream()
+        {
+            string path = @"C:\Users\NITISH MEHTA\OneDrive\Desktop\CsharpPracticeSection\CsharpFile_IO\CsharpFile_IO/MyFile.txt"; // @- verbatim Literal
+            using (FileStream files = new FileStream(path, FileMode.Create,FileAccess.Write))
+            {
+                files.WriteByte(78);
+                Console.WriteLine("File created");
+            }
+
+            // FileStream files = new FileStream(path, FileMode.Create);
+            // Console.WriteLine("File created");
+            // files.Close();
         }
     }
 }

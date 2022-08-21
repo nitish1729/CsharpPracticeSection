@@ -79,5 +79,28 @@ C:\Users\NITISH MEHTA\OneDrive\Desktop\CsharpPracticeSection\CsharpFile_IO\Cshar
      * Name
      * FullName
      * GetFiles().Length;
+     * LastAccessTime;
+     * CreationTime;
+     * Atributes;
+     * Parents;
+     * Root;
+
+ """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+                                                    File Stream 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+ The FileStream Class represents a file in the Computer;
+ Use the FileStream class to read from, write to, open to and close files on a file system;
+
+ The FileStream is a class used for reading and writing files in C#
+
+ FileStream is derived from 
+
+ FileStream class is used to perform the basic operations of reading and writing operting system files.
+
+ FileSteam Class helps in reading from, writing and closing files.
+
+ To manipulate files using FileStream, you need to create an objecyt of filesStream class.
+
+ This objecyt has four parameters; the name of the files, FileMode,FileAccess, and FileShare;
 
 
