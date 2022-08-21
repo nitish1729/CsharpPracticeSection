@@ -20,8 +20,8 @@ namespace CsharpFile_IO
                //    ReadAllText(String) is used for Opens a text file, reads all the text in the file,
                //    and then closes the file.
                 
-               // string data = File.ReadAllText(path);
-              //  Console.WriteLine(data);
+               //  string data = File.ReadAllText(path);
+              //   Console.WriteLine(data);
             }
             else
             {
@@ -72,14 +72,32 @@ namespace CsharpFile_IO
         }
         public void DirectoryInfo()
         {
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Red;
             string path = "C:\\Users\\NITISH MEHTA\\OneDrive\\Desktop\\CsharpPracticeSection\\CsharpFile_IO\\CsharpFile_IO/My_Directory";
             string path2 = @"C:\Users\NITISH MEHTA\OneDrive\Desktop\CsharpPracticeSection\CsharpFile_IO\CsharpFile_IO/My_Directory2";
-            DirectoryInfo dir = new DirectoryInfo(path2);
-            dir.Delete(true);
+            DirectoryInfo dir = new DirectoryInfo(path);
+            DirectoryInfo[] dirs = dir.GetDirectories();
+            //  dir.Delete(true);
             //  dir.Create();
-            // dir.CreateSubdirectory("SubDirectory");
-            // dir.MoveTo(path2);
-            Console.WriteLine("Directory Deleted");
+            //  dir.CreateSubdirectory("SubDirectory");
+            //  dir.MoveTo(path2);
+            Console.WriteLine("Get only Directory Name by (Name) Method ");
+            foreach (var item in dirs)
+            {
+                Console.WriteLine(item.Name);
+            }
+            Console.WriteLine("Get complete path of  Directory Name by (FullName) Method ");
+            foreach (var item in dirs)
+            {
+                Console.WriteLine(item.FullName);
+            }
+            Console.WriteLine("Get main/parents Directory Name by (Parent) Method ");
+            foreach (var item in dirs)
+            {
+                Console.WriteLine(item.Parent);
+            }
+            Console.WriteLine("Getting the subdirectory ny using GetDirectories method");
             Console.ReadLine();
 
         }

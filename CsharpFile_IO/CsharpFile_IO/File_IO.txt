@@ -70,7 +70,9 @@ C:\Users\NITISH MEHTA\OneDrive\Desktop\CsharpPracticeSection\CsharpFile_IO\Cshar
 
       * MoveTo :- Moves a DirectoryInfo Insatnce and its contents to a new path.
 
+      * Delete :- Delete This instance of a directoryInfo, specifiying whether to delete subdirectory and files.
 
+      * GetDirectory :- This method is used to get the sub Directory in the given directory path;
        
 
 
