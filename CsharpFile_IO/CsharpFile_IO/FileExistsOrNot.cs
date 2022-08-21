@@ -73,7 +73,7 @@ namespace CsharpFile_IO
         public void DirectoryInfo()
         {
             Console.BackgroundColor = ConsoleColor.Black;
-            Console.ForegroundColor = ConsoleColor.Red;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             string path = "C:\\Users\\NITISH MEHTA\\OneDrive\\Desktop\\CsharpPracticeSection\\CsharpFile_IO\\CsharpFile_IO/My_Directory";
             string path2 = @"C:\Users\NITISH MEHTA\OneDrive\Desktop\CsharpPracticeSection\CsharpFile_IO\CsharpFile_IO/My_Directory2";
             DirectoryInfo dir = new DirectoryInfo(path);
@@ -82,23 +82,23 @@ namespace CsharpFile_IO
             //  dir.Create();
             //  dir.CreateSubdirectory("SubDirectory");
             //  dir.MoveTo(path2);
-            Console.WriteLine("Get only Directory Name by (Name) Method ");
+            Console.WriteLine("Get  files from Directory  by using (GetFiles) Method ");
             foreach (var item in dirs)
             {
-                Console.WriteLine(item.Name);
+                Console.WriteLine(item.GetFiles());
             }
-            Console.WriteLine("Get complete path of  Directory Name by (FullName) Method ");
-            foreach (var item in dirs)
-            {
-                Console.WriteLine(item.FullName);
-            }
-            Console.WriteLine("Get main/parents Directory Name by (Parent) Method ");
-            foreach (var item in dirs)
-            {
-                Console.WriteLine(item.Parent);
-            }
-            Console.WriteLine("Getting the subdirectory ny using GetDirectories method");
-            Console.ReadLine();
+           // Console.WriteLine("Get complete path of  Directory Name by (FullName) Method ");
+            //foreach (var item in dirs)
+            //{
+            //    Console.WriteLine(item.FullName);
+            //}
+            //Console.WriteLine("Get main/parents Directory Name by (Parent) Method ");
+            //foreach (var item in dirs)
+            //{
+            //    Console.WriteLine(item.Parent);
+            //}
+            //Console.WriteLine("Getting the subdirectory ny using GetDirectories method");
+            //Console.ReadLine();
 
         }
     }

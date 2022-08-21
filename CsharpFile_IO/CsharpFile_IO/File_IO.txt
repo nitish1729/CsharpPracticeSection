@@ -74,5 +74,10 @@ C:\Users\NITISH MEHTA\OneDrive\Desktop\CsharpPracticeSection\CsharpFile_IO\Cshar
 
       * GetDirectory :- This method is used to get the sub Directory in the given directory path;
        
+     * GetFiles :- The GetFiles method is used to get the files in the specified folder.
+
+     * Name
+     * FullName
+     * GetFiles().Length;
 
 
