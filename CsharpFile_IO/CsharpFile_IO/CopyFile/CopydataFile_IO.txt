@@ -1,0 +1,42 @@
+﻿A file is collection of data stored in a disk with specific name and directory path.
+
+*Name = abc.txt
+
+Dirctory path => C:\Users\NITISH MEHTA\OneDrive\Desktop\CsharpPracticeSection\CsharpFile_IO\CsharpFile_IO\Program.cs
+
+File Handling allows to store/ retrive data on permanent storage.
+
+File and its data can be handled programmatically.
+
+When a file is opened for reading or writing, it becomes a stream.
+
+The stream is basically the seuence of bytes passing through the communication path.  There are two main streams: the input stream and output stream is used for writing into the files 
+(write operation)
+
+The .Net framework provides a few basic classes for creating,reading and writing to files on the secondary storage and for retriving files
+system information.
+
+
+They are located in the system.IO namespace and used both in desktop application and the web applications.
+
+
+Class used in File Handling in C#
+1. FileStream
+2. BinaryReader
+3.BinaryWriter
+4.StreamReader
+5.StreamWriter
+6.StringWriter
+7.StringReader
+8.DirectoryInfo.   All these classes are present in System.IO namespace. This namespace is used for performing operations with files.
+
+
+
+
+
+C:\Users\NITISH MEHTA\OneDrive\Desktop\CsharpPracticeSection\CsharpFile_IO\CsharpFile_IO\FileExistsOrNot.cs
+
+
+ Use ReadAllText method of file class to read the data from text.
+
+ Use Copy method of file class to make a copy of a file.
