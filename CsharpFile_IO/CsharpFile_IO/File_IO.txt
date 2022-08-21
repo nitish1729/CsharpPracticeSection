@@ -49,3 +49,28 @@ C:\Users\NITISH MEHTA\OneDrive\Desktop\CsharpPracticeSection\CsharpFile_IO\Cshar
  2nd version of Copy Method allowed to overwrite files.
  Copies an existing file to a  new file. Overwriting a file of the same name is allowed.
  Overawrite true if the destination file can be overwritten; otherwise, false.
+
+
+                             Directory Info Class
+                 """"""""""""""""""""""""""""""""""""""""""""""""""
+       It is used to create, delete and move directory
+       it providees method to perform operations related to directory and subdirectory. It is a sealed class so, we cannot inherit it.
+       C# Directory class provides functionality to work with folders or directories
+
+       The Directory class shares almost all of the same properties as the FileInfo class, except that they operate on the directories not files.
+
+       The DirectoryInfo class does have static method and can only be used on the instantiated objects.
+
+       The DirectoryInfo instance methods for deleting folders, creating a new directory and sub directores.
+
+
+      * Create :- this Method is used to create the new directory.
+
+      * CreateSubDirectory :- This Method is used to create a subdirectory or subdirectory on the specified path;
+
+      * MoveTo :- Moves a DirectoryInfo Insatnce and its contents to a new path.
+
+
+       
+
+
