@@ -88,6 +88,7 @@ namespace OOpsConceptPractice
         }
         public class Employee
         {
+            private readonly int Value;
             private int[] age = new int[3];
             public int this[int index]
             {

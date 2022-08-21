@@ -58,4 +58,4 @@ Properties are identified by their names.
 Properties are accessed by their names.
 Properties can be static as well as instance members.
 A get accessor of a property has no parameters.
-A set accessor of a property contains the implicit value parameter.
+A set accessor of a property contains the implicit value parameter./
