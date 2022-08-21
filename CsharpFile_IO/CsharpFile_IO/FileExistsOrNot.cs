@@ -74,11 +74,12 @@ namespace CsharpFile_IO
         {
             string path = "C:\\Users\\NITISH MEHTA\\OneDrive\\Desktop\\CsharpPracticeSection\\CsharpFile_IO\\CsharpFile_IO/My_Directory";
             string path2 = @"C:\Users\NITISH MEHTA\OneDrive\Desktop\CsharpPracticeSection\CsharpFile_IO\CsharpFile_IO/My_Directory2";
-            DirectoryInfo dir = new DirectoryInfo(path);
+            DirectoryInfo dir = new DirectoryInfo(path2);
+            dir.Delete(true);
             //  dir.Create();
-            //dir.CreateSubdirectory("SubDirectory");
-            dir.MoveTo(path2);
-            Console.WriteLine("Moves the file into My_Directory2");
+            // dir.CreateSubdirectory("SubDirectory");
+            // dir.MoveTo(path2);
+            Console.WriteLine("Directory Deleted");
             Console.ReadLine();
 
         }
