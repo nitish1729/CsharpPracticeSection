@@ -104,3 +104,30 @@ C:\Users\NITISH MEHTA\OneDrive\Desktop\CsharpPracticeSection\CsharpFile_IO\Cshar
  This objecyt has four parameters; the name of the files, FileMode,FileAccess, and FileShare;
 
 
+ * FileMode :- It specifies how to operation system should open the file. It has follwing members.
+
+ * Append :- Open the files if exists or create a new files. If files exists then please cursor at the end of the file 
+
+ * Create :- It specifies operations system to create a new file. If File already exist then previous file will be overwritten
+
+ * CreateNew :- it create a new files and if the files already exists then throw IOException.
+
+ * Open :-    Open existing files
+ *    Open or create open existing file and not found then create new file.
+
+ * Truncate :- Open an existing file and cull all the stored data. So the file size becomes 0.
+
+ //"""""""""""""""""""""""""""FileStreamWriter"""""""""""""""""""""""""""""""""""""""""""""""""""
+ StreamWriter class can be used to write text file.
+
+ StreamWriter class in C# writes characers to a stream in a specified encoding.
+
+ StreamWritter.Write() method is responsible for writing text to a stream
+
+ StreamWriter class in inherited from Textwriter class that provides methods to write an object to a string, write strings to a file, or to serialize XML.
+
+ The StreamWriter class has several constractors and provides us with many methods.
+
+ It is the best places in using statement to ensure that the resourses can be removed when no longer needed.
+
+
