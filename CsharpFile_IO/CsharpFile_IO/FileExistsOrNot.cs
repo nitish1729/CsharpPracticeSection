@@ -146,5 +146,27 @@ namespace CsharpFile_IO
             Writer.Close();
             files.Close();
         }
+        /*
+        public void FileStreamReader()
+        {
+            string path = @"C:\Users\NITISH MEHTA\OneDrive\Desktop\CsharpPracticeSection\CsharpFile_IO\CsharpFile_IO/MyNewFile.txt";
+            using (FileStream files = new FileStream(path, FileMode.Open, FileAccess.Read)) ;
+            {
+                using (StreamReader reader = new StreamReader(files)) ;
+                {
+                    //string line = Reader.ReadLine();
+                    //Console.WriteLine(line);
+                    string line = "";
+                    while((line = reader.ReadLine()) != null)
+                    {
+                        Console.WriteLine(line);
+                    }
+                }
+            }
+            //FileStream files = new FileStream(path, FileMode.Open, FileAccess.Read);
+            //StreamReader reader = new StreamReader();
+                 
+        }
+        */
     }
 }

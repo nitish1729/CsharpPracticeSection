@@ -131,3 +131,17 @@ C:\Users\NITISH MEHTA\OneDrive\Desktop\CsharpPracticeSection\CsharpFile_IO\Cshar
  It is the best places in using statement to ensure that the resourses can be removed when no longer needed.
 
 
+
+  //"""""""""""""""""""""""""""FileStreamReader"""""""""""""""""""""""""""""""""""""""""""""""""""
+
+  Streamreader class is used to read string from the stream.
+
+  StreamReader reads text files.
+
+  it inherits Textreader class.
+
+  it provides ReadLine() method to read data from the stream
+
+
+
+
